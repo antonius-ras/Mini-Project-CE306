@@ -4,7 +4,7 @@ function Profile() {
     return (
         <Container size="3" py="6">
             <Card>
-                <Grid columns="2" gap="3" p="5">
+                <Grid columns={{ initial: '1', md: '2' }} gap="3" p="5">
                     <Flex align="center" gap="4">
                         <Avatar size="8" radius="full" fallback="SP" color="blue" src='https://lh3.googleusercontent.com/a/ACg8ocJpSVjTY2WbX3gNpvTs9GTKkUorGMyih9k-gCyzxcS9Zv0EAJQ=s288-c-no' />
                         <Box>
