@@ -6,7 +6,7 @@ function Profile() {
             <Card>
                 <Grid columns="2" gap="3" p="5">
                     <Flex align="center" gap="4">
-                        <Avatar size="8" radius="full" fallback="SP" color="blue" src='https://lh3.googleusercontent.com/a-/ALV-UjVhhSOEvJd711Stm2xXWnUMPkMbAzJtrV7oNra5ZHuKY1WhpVw=s240-p-k-rw-no' />
+                        <Avatar size="8" radius="full" fallback="SP" color="blue" src='https://lh3.googleusercontent.com/a/ACg8ocJpSVjTY2WbX3gNpvTs9GTKkUorGMyih9k-gCyzxcS9Zv0EAJQ=s288-c-no' />
                         <Box>
                             <Heading size="7">Tobias Ras</Heading>
                             <Text size="3" color="gray">Full Stack Developer</Text>

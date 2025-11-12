@@ -12,12 +12,12 @@ function Navigation() {
         <Box className="border-b border-gray-200">
             <Flex gap="3" p="4" justify="center" wrap="wrap">
                 <Link to="/" className="no-underline">
-                <Button variant={isActive('/') ? 'solid' : 'soft'} size="3">
+                <Button color="yellow" variant={isActive('/') ? 'solid' : 'soft'} size="3">
                 <IoHome size={18} />หน้าหลัก
                 </Button>
                 </Link>
                 <Link to="/profile" className="no-underline">
-                <Button variant={isActive('/profile') ? 'solid' : 'soft'} size="3">
+                <Button color="green" variant={isActive('/profile') ? 'solid' : 'soft'} size="3">
                 <FaUser size={18} />ประวัติส่วนตัว
                 </Button>
                 </Link>
