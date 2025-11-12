@@ -5,7 +5,7 @@ function Profile() {
         <Container size="3" py="6">
             <Card>
                 <Grid columns={{ initial: '1', md: '2' }} gap="3" p="5">
-                    <Flex align="center" gap="4">
+                    <Flex direction={{ initial: 'column', sm: 'row' }} align="center" gap="4">
                         <Avatar size="8" radius="full" fallback="SP" color="blue" src='https://lh3.googleusercontent.com/a/ACg8ocJpSVjTY2WbX3gNpvTs9GTKkUorGMyih9k-gCyzxcS9Zv0EAJQ=s288-c-no' />
                         <Box>
                             <Heading size="7">Tobias Ras</Heading>
@@ -18,7 +18,7 @@ function Profile() {
                         <Text size="2" color="gray" mb="4">ผมชื่อ Tobias Ras เป็นนักพัฒนาซอฟต์แวร์ Full Stack ที่มีความชำนาญในการสร้างแอปพลิเคชันเว็บที่ตอบสนองได้ดีและมีประสิทธิภาพและมีความสามารถในการทำงานกับเทคโนโลยีทั้งด้านหน้าและด้านหลัง</Text>
                     </Box>
                 </Grid>
-                <Grid columns="2" gap="3" p="5">
+                <Grid columns={{ initial: '1', md: '2' }} gap="3" p="5">
 
                     {/* คอลัมน์ 1: จะมี การศึกษา และ ทักษะ (เพื่อให้ ทักษะ ขึ้นไปเติมช่องว่างใต้ การศึกษา) */}
                     <Flex direction="column" gap="5"> {/* เพิ่ม Flex เพื่อซ้อน การศึกษา และ ทักษะ เข้าด้วยกัน */}
