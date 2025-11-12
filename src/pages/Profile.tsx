@@ -1,4 +1,4 @@
-import { Box, Container, Heading, Text, Card, Flex, Avatar, Badge, Separator, Grid } from '@radix-ui/themes';
+import { Box, Container, Heading, Text, Card, Flex, Avatar, Badge, Grid } from '@radix-ui/themes';
 
 function Profile() {
     return (
